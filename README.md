@@ -1,4 +1,32 @@
+# Its a CRUD web App design and developed by using reactjs tailwindcss and json-server
 # Getting Started with Create React App
+
+# Dependancies are...
+1-  React JS
+2-  Tailwind css
+3-  Json-Server
+4-  React Peginate
+
+# You just need to clone this porject from github
+# Then open repository in your favorite IDE
+# Then open terminal in the same repository
+# Then run command
+### `npm install`
+
+It will install all the neccessory packages 
+
+# Then setup tailwindcss by runing the command on you terminal
+### `npx tailwindcss init`
+
+# Edit tailwind.config.js and replace 'content' with this
+### `content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],`
+
+# Insert these three lines in index.css file
+### `@tailwind base;
+     @tailwind components;
+     @tailwind utilities;`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,13 +34,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npx json-server --watch db.json --port 3001`
+
+Run this command on separate terminal in the same folder to run json server on your system to check the conectivity with frontend
 
 ### `npm test`
 
