@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "umar",
+      "city": "karachi",
+      "phoneNo": "135790"
+    },
+    {
+      "id": 2,
+      "name": "ALi",
+      "city": "Nawabshah",
+      "phoneNo": "0305"
+    },
+    {
+      "id": 3,
+      "name": "Rajput",
+      "city": "Nawabshah",
+      "phoneNo": "0305"
+    },
+    {
+      "id": 4,
+      "name": "Umar",
+      "city": "Nawabshah",
+      "phoneNo": "0305"
+    },
+    {
+      "name": "ahmed",
+      "city": "karachi",
+      "phoneNo": "8776",
+      "id": 5
+    },
+    {
+      "name": "habib",
+      "city": "hyderabad",
+      "phoneNo": "6666",
+      "id": 6
+    }
+  ]
+}
